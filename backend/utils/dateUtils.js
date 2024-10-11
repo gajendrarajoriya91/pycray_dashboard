@@ -1,10 +1,4 @@
-// utils/dateUtils.js
 
-/**
- * Converts a UTC date string to IST.
- * @param {string} utcDateString - The UTC date string to convert.
- * @returns {string} - The date string in IST format.
- */
 const convertUTCToIST = (utcDateString) => {
   const date = new Date(utcDateString);
   const options = {
